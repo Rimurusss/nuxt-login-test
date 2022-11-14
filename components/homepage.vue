@@ -6,7 +6,8 @@
           CardX Shop
         </h1>
         <div class="links" >
-            <b-button id="buttonhome" size="lg" to="/home">เข้าสู่เว็บไซต์</b-button>
+            <v-btn elevation="2" x-large to="/login">เข้าสู่เว็บไซต์</v-btn>
+            <!-- <b-button id="buttonhome" size="lg" to="/home">เข้าสู่เว็บไซต์</b-button> -->
         </div>
       </div>
     </div>
