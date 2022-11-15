@@ -55,22 +55,23 @@
                 <a href="#" class="pl-2" style="color: #000000">Sign Up</a>
               </v-card-actions>
 
-              <v-btn class="mx-2 mb-2" @click="login">
-                <v-icon class="mx-2" size="30"> mdi-google </v-icon>
-                signup with google
-              </v-btn>
-              <v-btn class="mx-2 mb-2" @click="login">
-                <v-icon class="mx-2" size="30"> mdi-facebook </v-icon>
-                signup with facebook
-              </v-btn>
-              <v-btn class="mx-2 mb-2" @click="login">
-                <v-icon class="mx-2" size="30"> mdi-google </v-icon>
-                signup with discord
-              </v-btn>
-              <v-btn class="mx-2 mb-2" @click="login">
-                <v-icon class="mx-2" size="30"> mdi-google </v-icon>
-                signup with githud
-              </v-btn>
+            
+                <v-btn class="mx-2 mb-2" @click="login-google">
+                  <v-icon class="mx-2" size="30"> mdi-google </v-icon>
+                  signup with google
+                </v-btn>
+                <v-btn class="mx-2 mb-2" @click="login-facebook">
+                  <v-icon class="mx-2" size="30"> mdi-facebook </v-icon>
+                  signup with facebook
+                </v-btn>
+                <v-btn class="mx-2 mb-2" @click="login-discord">
+                  <v-icon class="mx-2" size="30"> mdi-google </v-icon>
+                  signup with discord
+                </v-btn>
+                <v-btn class="mx-2 mb-2" @click="login-githud">
+                  <v-icon class="mx-2" size="30"> mdi-google </v-icon>
+                  signup with githud
+                </v-btn>
 
             </v-form>
           </v-card-text>
@@ -103,8 +104,14 @@
   </v-layout>
 </template> -->
 <script>
-export default {};
+export default {
+
+
+
+};
 </script>
 
 <style>
+
+
 </style>
