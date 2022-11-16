@@ -2,9 +2,7 @@
     <div class="container">
       <div>
         <!-- <Logo /> -->
-        <h1 class="title">
-          CardX Shop
-        </h1>
+        <p class="text-6xl">Hello</p>
         <div class="links" >
             <v-btn elevation="2" x-large to="/login">เข้าสู่เว็บไซต์</v-btn>
             <!-- <b-button id="buttonhome" size="lg" to="/home">เข้าสู่เว็บไซต์</b-button> -->

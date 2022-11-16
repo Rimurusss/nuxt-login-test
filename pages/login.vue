@@ -52,7 +52,7 @@
                 <v-checkbox color="#000000" label="Remember me"></v-checkbox>
                 <v-spacer></v-spacer>
                 No account?
-                <a href="#" class="pl-2" style="color: #000000">Sign Up</a>
+                <a href="signup" class="pl-2" style="color: #000000">Sign Up</a>
               </v-card-actions>
 
             

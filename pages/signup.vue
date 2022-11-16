@@ -1,9 +1,13 @@
 <template>
-  <homepage/>
+  <h1>signup</h1>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+    layout: 'CoreLayout',
 }
 </script>
+
+<style>
+
+</style>
