@@ -1,4 +1,3 @@
-
 <template>
   <v-container class="fill-height" fluid>
     <v-row align="center" justify="center" dense>
@@ -14,7 +13,7 @@
             target="_blank"
           >
             <v-img
-              src="https://assets.reedpopcdn.com/Genshin-Impact-anime.jpg/BROK/thumbnail/1600x900/quality/100/Genshin-Impact-anime.jpg"
+              src="https://i.pinimg.com/originals/b9/43/e3/b943e3b6eabdd3e31b681ef13a9872a0.png"
               alt="Fedorae Education Log"
               contain
               height="200"
@@ -105,13 +104,20 @@
 </template> -->
 <script>
 export default {
-
+  layout: 'CoreLayout',
 
 
 };
 </script>
 
 <style>
-
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 </style>
